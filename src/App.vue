@@ -4,6 +4,16 @@
   <Footer />
 </template>
 
+<script lang="ts">
+import Header from '@/components/layout/Header.vue';
+import Content from '@/components/layout/Content.vue';
+import Footer from '@/components/layout/Footer.vue';
+
+export default {
+  components: { Header, Content, Footer },
+};
+</script>
+
 <style lang="scss">
 * {
   padding: 0px;
@@ -49,13 +59,3 @@ button {
   -moz-osx-font-smoothing: grayscale;
 }
 </style>
-
-<script lang="ts">
-import Header from '@/components/layout/Header.vue';
-import Content from '@/components/layout/Content.vue';
-import Footer from '@/components/layout/Footer.vue';
-
-export default {
-  components: { Header, Content, Footer },
-};
-</script>
